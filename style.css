@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cyan;
+    
+}
+
+.container{
+
+    
+}
+
+.heading{
+    text-align: center;
+    background-color:white;
+    margin-top:10%;
+    margin-left:40%;
+    font-size:20px;
+    width:25%;
+    color: rgb(18, 49, 95);
+    padding:5px 0px 5px 0px;
+
+}
+
+.main{
+
+ border:1px solid rgba(0, 0, 0, 0.596);
+ height:200px;
+ margin-left:40%;
+ margin-right:35%;
+ border-radius:8px;
+ background-color: white;
+ margin-top:10px;
+}
+
+input{
+    padding:5px;
+}
+
+input:focus{
+    border-color:rgb(0, 102, 255);;
+}
+
+
+.date{
+    position: absolute;
+    top: 30%;
+    left:42%;
+    font-size:20px;
+    color: rgb(0, 102, 255);
+    
+}
+
+.input-1{
+    position: absolute;
+    top: 33%;
+    left:42%;
+
+    padding:8px 0px 8px 0px;
+
+
+}
+.month{
+    position: absolute;
+    top: 30%;
+    left:50%;
+    font-size:20px;
+    color: rgb(0, 102, 255);
+}
+.input-2{
+    position: absolute;
+    top: 33%;
+    left:50%;
+    padding:8px 0px 8px 0px;
+
+}
+.year{
+    position: absolute;
+    top: 30%;
+    left:58%;
+    font-size:20px;
+    color: rgb(0, 102, 255);
+}
+.input-3{
+    position: absolute;
+    top: 33%;
+    left:58%;
+    padding:8px 0px 8px 0px;
+}
+
+.btn{
+    margin-top:70px;
+    padding:5px 30px 5px 30px;
+    color:white;
+    background-color:rgb(18, 49, 95);
+    margin-left:140px;
+    border: none;
+}
+
+h4{
+margin-left:120px;
+margin-top:10px;
+word-spacing:3px;
+color: rgb(18, 49, 95);
+}
